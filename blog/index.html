@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://MSCRMGuru.github.io">
+  <link rel="canonical" href="http://MSCRMGuru.github.io/blog">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="MSCRM Guru" type="application/atom+xml">
 
@@ -66,7 +66,7 @@
                         <li><a href="/solutions/dynamic-calendar">Dynamic Calendar</a></li>
                       </ul>
                 </li>
-                <li class="">
+                <li class="active">
                     <a class="top-level" href="/blog">Blog</a>
                 </li>
             </ul>
@@ -95,107 +95,82 @@
 
 
       </header>
-      <div id="main" class=>
+      <div id="main" class="container">
         <div id="content">
-          <div class="introContainer">
-<div class="container">
-<div class="row">
+          <div class="row">
+  <div class="page-content col-md-9">
+    <div class="blog-index">
+      
+      
+    </div>
+
+    <ul class="pager">
+      
+        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
+      
+    </ul>
+  </div>
+
   
+    <aside class="sidebar col-md-3">
+      
+        <section class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Recent Posts</h3>
+  </div>
+  
+  <div id="recent_posts" class="list-group">
+    
+  </div>
+</section>
 
-    <div class="col-md-4">
-        <div class="center">
-            <img src="images/mscrmguru.png" class="introguru" alt="MSCRM Guru">
-        </div>
+<section class="panel panel-default clearfix">
+  <div class="panel-heading">
+      <h3 class="panel-title">GitHub Repos</h3>
+  </div>
+  <div class="list-group" id="gh_repos">
+    <p class="loading">Status updating&#8230;</p>
+  </div>
+  
+    <div class="gh-profile-link pull-right text-muted">
+      <a href="https://github.com/MSCRMGuru">@MSCRMGuru</a> on GitHub
     </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
-    <div class="col-md-6">
-        <div class="intro">
-            <h1 class="alt-font title">
-                Hi! I&#8217;m an MSCRM Guru!
-            </h1>
-
-            <h3 class="">
-                I build <b>simple to use Dynamics CRM Solutions</b> that quickly enhance productivity.  Did I mention most of them are free?
-            </h3>
-
-            <h3 class="">
-                I also have a <a href="/blog/">blog</a> with tips and tricks for users and developers of Dynamics CRM.
-            </h3>
-
-            <p>
-                <br>
-                <a href="/contact-guru/" class="btn btn-lg btn-primary">Need help with CRM?</a>
-            </p>
-        </div>
-    </div>
-
-
+        github.showRepos({
+            user: 'MSCRMGuru',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
+
+
+
+
+      
+    </aside>
+  
 </div>
 
-</div>
-</div>
-
-<div class="featureContainer" >
-
-<div class="container">
-
-
-
-        <div class="seperator"></div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="center" id="services">
-                        <h1 class="title alt-font">Here&#8217;s what I do:</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            
-            <div class="col-md-4">
-                <div class="feature-item">
-                    <a href="/solutions/">
-                        <h1 >Solutions</h1>
-                        <img src="images/solution.png" alt="Consultant" />
-                    </a>
-                    <h4>
-                        I&#8217;ve built quite a few Dynamics CRM solutions over time and am slowly cleaning them up and giving them back to the community.  Most of the solutions are completely free and can be downloaded and installed quickly.
-                    </h4>
-                </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div class="feature-item">
-                    
-                    <a href="/blog/">
-                        <h1>Blog</h1>
-                        <img src="images/chat-icon-sml.png" alt="Blueprint"/>
-                    </a>
-                    <h4>
-                        I maintain (or at least try to) a blog where I provide tips, help and general information about Dynamics CRM. It&#8217;s probably the best place to get updates to what i&#8217;m up to.
-                    </h4>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-item">
-                    
-                    <a href="/contact-guru/">
-                        <h1>Help</h1>
-                        <img src="images/rescue.png" alt="Help"/>
-                    </a>
-                    <h4>
-                        I provide development and architectural help with Dynamics CRM.  Are you not sure how to accomplish something with Dynamics CRM? I can help in providing a solution!
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-<div class="wrapper">
-
-</div>
         </div>
       </div>
     </div>

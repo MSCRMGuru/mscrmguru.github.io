@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[MSCRM Guru]]></title>
+  <link href="http://MSCRMGuru.github.io/atom.xml" rel="self"/>
+  <link href="http://MSCRMGuru.github.io/"/>
+  <updated>2014-06-25T00:11:52+10:00</updated>
+  <id>http://MSCRMGuru.github.io/</id>
+  <author>
+    <name><![CDATA[The Guru]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
