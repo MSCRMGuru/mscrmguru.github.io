@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>MSCRM Guru</title>
+  <title>Dynamics CRM Calendar Solution - MSCRM Guru</title>
   <meta name="author" content="The Guru">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://mscrmguru.github.io">
+  <link rel="canonical" href="http://mscrmguru.github.io/solutions/dynamic-calendar">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="MSCRM Guru" type="application/atom+xml">
 
@@ -95,59 +95,36 @@
 
 
       </header>
-      <div id="main" class=>
+      <div id="main" class="container">
         <div id="content">
-          <div class="introContainer">
-<div class="container">
-<div class="row">
-  
+          
+            <h1></h1>
 
-    <div class="col-md-4">
-        <div class="center">
-            <img src="images/mscrmguru.png" class="introguru" alt="MSCRM Guru">
-        </div>
-    </div>
+<div class="jumbotron">
+<img src="/images/gurus/guru.png" alt="The Guru" class="pull-left calendar-responsive-guru-img" />
 
-    <div class="col-md-6">
-        <div class="intro">
-            <h1 class="alt-font title">
-                Hi! I&#8217;m an MSCRM Guru!
-            </h1>
+  <h1 class="alt-font">Dynamic Calendar</h1>
 
-            <h3 class="">
-                I build <b>simple to use Dynamics CRM Solutions</b> that quickly enhance productivity.  Did I mention most of them are free?
-            </h3>
-
-            <h3 class="">
-                I also have a <a href="/blog/">blog</a> with tips and tricks for users and developers of Dynamics CRM.
-            </h3>
-
-            <p>
-                <br>
-                <a href="/contact-guru/" class="btn btn-lg btn-primary">Need help with CRM?</a>
-            </p>
-        </div>
-    </div>
-
-
-
-
+  <p>This Dynamics CRM 2013 solution allows quick and simple visualizations of any record in CRM that contains a date field.  Easily view appointments for an individual or a team, display task due dates, view the campaign and campaign activities for the entire oranization, or any other custom record you may have - on a clean and simple to understand calendar.</p>
+  <br>
+  <p><a href="/solutions/files/DynamicCalendar_0_7_2_managed.zip" class="btn btn-lg btn-primary"><i class="glyphicon glyphicon-download"></i> Download Beta Version</a>
+</p>
 </div>
 
-</div>
-</div>
+
+
 
 <div class="featureContainer" >
 
-<div class="container">
+
 
 
 
         <div class="seperator"></div>
         <div class="row">
             <div class="col-md-12">
-                <div class="center" id="services">
-                        <h1 class="title alt-font">Here&#8217;s what I do:</h1>
+                <div class="center" id="features">
+                        <h1 class="title alt-font">Features</h1>
                 </div>
             </div>
         </div>
@@ -157,11 +134,11 @@
                 <div class="feature-item">
                     <a href="/solutions/">
                         
-                        <h1 >Solutions</h1>
+                        <h1 >Clean and Simple</h1>
                     </a>
-                    <img src="images/gurus/present-sml.png" alt="Consultant"/>
+                    <div class="feature-icon"><i class="glyphicon glyphicon-star"></i></div>
                     <h4>
-                        I&#8217;ve built quite a few Dynamics CRM solutions over time and am slowly cleaning them up and giving them back to the community.  Most of the solutions are completely free and can be downloaded and installed quickly.
+                        Dynamic Calendar is fully integrated with Dynamics CRM 2013 and provides a clean and simple calendar view for CRM data.
                     </h4>
                 </div>
                 <div class="clearfix"></div>
@@ -171,11 +148,11 @@
                 <div class="feature-item">
                     
                     <a href="/blog/">
-                        <h1>Info</h1>
+                        <h1>All Entities, All Attributes</h1>
                     </a>
-                    <img src="images/gurus/board-blog-sml.png" alt="Blueprint" />
+                    <div class="feature-icon"><i class="glyphicon glyphicon-th-list"></i></div>
                     <h4>
-                        I maintain (or at least try to) a blog where I provide tips, help and general information about Dynamics CRM. It&#8217;s probably the best place to get updates around what i&#8217;m up to.
+                        Easily create views for any entity in the system that contains date fields.  Easily visualize all your data.
                     </h4>
                 </div>
                 <div class="clearfix"></div>
@@ -193,12 +170,44 @@
                 </div>
             </div>
         </div>
-    </div>
 
 </div>
-<div class="wrapper">
 
-</div>
+
+<p>Well, you probably have a few options:</p>
+
+<ul>
+<li>Close and re-open the opportunity form without saving the changes, losing the changes that you made but brining the amount back.</li>
+<li>Looking in the audit log (if it&rsquo;s enabled) to get the latest amount.  This may take a while and the data may not even be there.</li>
+<li>Guessing the amount / putting a random value in there.  This one is probably not recommended&hellip;</li>
+</ul>
+
+
+<h3>Another option appears!</h3>
+
+<p>Well, if you have this free solution configured on the Opportunity form you have another option.  Just Undo the changes, get the information you need, and then Redo the changes you need.  With this solution you get the <kbd class="light">Ctrl+Z</kbd> and <kbd class="light">Ctrl+Y</kbd> shortcuts for Undo and Redo in any configured CRM form.</p>
+
+<p>The solution is essentially a single self contained JavaScript with no external dependencies.  It simply captures the data that is being changed as it changes to allows for undo and redo functionality.</p>
+
+<h3>Install and Configure</h3>
+
+<p>Configuring this addon is pretty simple:</p>
+
+<ol>
+<li><a href="/solutions/files/Undo_0_1_managed.zip">Download</a> and Import the solution to your CRM Organisation.</li>
+<li>Open any form that you want to enable Undo functionality on with the Form Editor.  Currently this only supports standard forms (Quick View and Mobile forms are not supported).</li>
+<li>Include the <code>guru_Undo.js</code> web resource as part of the form libraries.</li>
+<li>Add an On Load event handler to call <code>Guru.Xrm.Undo.Init</code>.</li>
+<li>Save and Publish.</li>
+<li>Check that it is working.  Edit a record using the form you updated, try making a change, then hit <kbd class="light">Ctrl+Z</kbd> and <kbd class="light">Ctrl+Y</kbd> top see what happens.</li>
+</ol>
+
+
+<p>If needed, it&rsquo;s possible to add CommandBar/Ribbon buttons and call a Javascript method to getthe same effect. We&rsquo;ve found that while Ribbon buttons tend to make sense, they seem to take up too much screen real estate with the CommandBar or are tucked away and un-intuitive to use.  Either way, it&rsquo;s very simple to add buttons to any entity form using the <a href="http://crmvisualribbonedit.codeplex.com/">Visual Ribbon Editor</a> or the <a href="http://www.develop1.net/public/page/Ribbon-Workbench-for-Dynamics-CRM-2011.aspx">Ribbon Workbench</a>, both great tools to play around with the CommandBar / Ribbon buttons in CRM.</p>
+
+          
+          
+          
         </div>
       </div>
     </div>

@@ -4,43 +4,71 @@
   
   
   <url>
-    <loc>http://MSCRMGuru.github.io/contact-guru/</loc>
-    <lastmod>2014-06-25T00:11:52+10:00</lastmod>
+    <loc>http://mscrmguru.github.io/contact-guru/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://MSCRMGuru.github.io/blog/</loc>
-    <lastmod>2014-06-25T00:11:52+10:00</lastmod>
+    <loc>http://mscrmguru.github.io/blog/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://MSCRMGuru.github.io/</loc>
-    <lastmod>2014-06-25T00:11:52+10:00</lastmod>
+    <loc>http://mscrmguru.github.io/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://MSCRMGuru.github.io/blog/archives/</loc>
-    <lastmod>2014-06-25T00:11:52+10:00</lastmod>
+    <loc>http://mscrmguru.github.io/blog/archives/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://MSCRMGuru.github.io/contact-guru/thank-you/</loc>
-    <lastmod>2014-06-25T00:11:52+10:00</lastmod>
+    <loc>http://mscrmguru.github.io/solutions/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://mscrmguru.github.io/solutions/dynamic-calendar/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://mscrmguru.github.io/solutions/notifications/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://mscrmguru.github.io/solutions/undo/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://mscrmguru.github.io/contact-guru/thank-you/</loc>
+    <lastmod>2014-06-29T23:57:31+10:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   
   <url>
-    <loc>http://MSCRMGuru.github.io/assets/bootstrap/js/tests/index.html</loc>
+    <loc>http://mscrmguru.github.io/assets/bootstrap/js/tests/index.html</loc>
     <lastmod>2014-06-22T17:11:1403421105Z</lastmod>
     <priority>0.6</priority>
   </url>
